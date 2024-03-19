@@ -1,0 +1,257 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    line-height: 1.6;
+    background-color: #8babf1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #8116df;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Centering Sections Styles */
+body {
+    text-align: center; 
+}
+
+/* Adjust the width of the main content area */
+main {
+    max-width: 800px; 
+    width: 100%;
+    margin: 0 auto; 
+}
+
+/* Style for the added images */
+#image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Center each section horizontally */
+section {
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #e7b3e7;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f4f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #5d0d9b;
+}
+
+/* Top Section Styles */
+#top {
+    background-color: #eebaf1;
+    padding: 20px;
+    text-align: center;
+}
+
+#top p {
+    font-size: 20px;
+}
+
+/* Content Section Styles */
+div {
+    background-color: #e7b3e7;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; 
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif; 
+}
+
+ul.favorite-songs-list {
+    list-style-type: none;
+}
+
+ul.favorite-songs-list li {
+    margin-bottom: 5px;
+}
+
+/* Image Styles */
+.gallery-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+/* Video Styles */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #067191;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #b119e0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Adjust the style of album titles */
+#discography .album-title {
+    font-weight: bold; 
+    color: #007bff; 
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumbs a:hover {
+    color: #007bff;
+}
+
+/* Search Box */
+.search-box {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Layout */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+}
